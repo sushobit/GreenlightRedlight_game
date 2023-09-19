@@ -1,0 +1,136 @@
+/* GreenLightRedLight.css */
+
+/* Styles for the game container */
+
+
+  /* Styles for the game box */
+  .box {
+    width: 200px;
+    height: 150px;
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+  }
+  
+  .box.green {
+    background-color: green;
+  }
+  
+  .box.red {
+    background-color: red;
+  }
+  
+  .instructions {
+    font-size: 20px;
+    text-align: left;
+  }
+  .heading {
+    font-style: italic;
+  }
+  .mode {
+    background-color: rgb(240, 240, 14);
+    color: black;
+    font-weight: 800;
+    border-radius: 5px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  .mode:hover {
+    background-color: yellowgreen;
+    font-size: small;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .homebutton {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+  }
+  .gameover {
+    color:  red;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  
+  /* Styles for the game over message */
+  .game-over-message {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+  }
+  .time-left {
+    animation: blip 1s ease infinite; /* Define the animation */
+    background-color: #ffcc00; /* Set the background color */
+    display: inline-block; /* To contain the background color */
+    padding: 5px 10px; /* Adjust padding for spacing */
+    border-radius: 5px; /* Add rounded corners for the background */
+  }
+  .score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Set the container height to fill the viewport */
+  }
+  
+  .score {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #5da9fa; /* Set the text color (blue in this example) */
+    background-color: #090a0a; /* Set the background color */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners for the background */
+    text-align: center; /* Center align the text */
+  }
+  .win-text {
+    font-size: 36px; /* Set font size */
+    font-weight: bold; /* Make text bold */
+    color: #0b7b25; /* Set text color (green in this example) */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add margin from the top for spacing */
+  }
+  .startagainbutton {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  
+  @keyframes blip {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+
+
+  @media (max-width: 768px) {
+    .heading {
+      font-style: italic;
+      font-size: 20px;
+    }
+  }
