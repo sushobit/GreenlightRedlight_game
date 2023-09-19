@@ -1,9 +1,4 @@
-/* GreenLightRedLight.css */
 
-/* Styles for the game container */
-
-
-  /* Styles for the game box */
   .box {
     width: 200px;
     height: 150px;
@@ -69,40 +64,40 @@
     font-size: xx-large;
   }
   
-  /* Styles for the game over message */
+ 
   .game-over-message {
     font-size: 24px;
     color: red;
     font-weight: bold;
   }
   .time-left {
-    animation: blip 1s ease infinite; /* Define the animation */
-    background-color: #ffcc00; /* Set the background color */
-    display: inline-block; /* To contain the background color */
-    padding: 5px 10px; /* Adjust padding for spacing */
-    border-radius: 5px; /* Add rounded corners for the background */
+    animation: blip 1s ease infinite;
+    background-color: #ffcc00; 
+    display: inline-block;
+    padding: 5px 10px; 
+    border-radius: 5px; 
   }
   .score-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Set the container height to fill the viewport */
+    justify-content: center; 
   }
   
   .score {
-    font-size: 24px; /* Adjust font size */
-    font-weight: bold; /* Make the text bold */
-    color: #5da9fa; /* Set the text color (blue in this example) */
-    background-color: #090a0a; /* Set the background color */
-    padding: 10px; /* Add padding for spacing */
-    border-radius: 5px; /* Add rounded corners for the background */
-    text-align: center; /* Center align the text */
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #5da9fa; 
+    background-color: #090a0a; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center;
   }
   .win-text {
-    font-size: 36px; /* Set font size */
-    font-weight: bold; /* Make text bold */
-    color: #0b7b25; /* Set text color (green in this example) */
-    text-align: center; /* Center align the text */
-    margin-top: 20px; /* Add margin from the top for spacing */
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b7b25; 
+    text-align: center; 
+    margin-top: 20px; 
   }
   .startagainbutton {
     background-color: #007bff;
