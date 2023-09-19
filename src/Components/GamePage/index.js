@@ -10,7 +10,7 @@ function GreenLightRedLight() {
   const [isWinner, setIsWinner] = useState(false);
   const [difficulty, setDifficulty] = useState('easy');
   const [leaderboard, setLeaderboard] = useState([]);
-  const [isHomePage, setIsHomePage] = useState(true); // Added isHomePage state
+  const [isHomePage, setIsHomePage] = useState(true); 
 
   const difficultySettings = {
     easy: { time: 40, clicksNeeded: 10 },
@@ -57,9 +57,9 @@ function GreenLightRedLight() {
     setIsWinner(false);
     setTimeLeft(difficultySettings[chosenDifficulty].time);
     setScore(0);
-    setLeaderboard([]); // Clear the leaderboard
+    setLeaderboard([]);
     changeLight();
-    setIsHomePage(false); // Leaving the homepage
+    setIsHomePage(false); 
   };
 
   const startAgain = () => {
@@ -72,12 +72,12 @@ function GreenLightRedLight() {
   };
 
   const returnHome = () => {
-    setIsHomePage(true); // Going back to the homepage
+    setIsHomePage(true);
     setIsPlaying(false);
     setIsGameOver(false);
     setIsWinner(false);
     setScore(0);
-    setLeaderboard([]); // Clear the leaderboard
+    setLeaderboard([]); 
   };
 
   const changeLight = () => {
