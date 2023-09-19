@@ -25,14 +25,11 @@ class HomePage extends Component {
     // Check if the name field is empty
     if (name.trim() === '') {
       window.alert('Please enter your name.');
-      return; // Prevent further execution if the name is empty
+      return; 
     }
 
-    // You can add your registration logic here
-    // For now, just set registrationComplete to true
     this.setState({ registrationComplete: true });
 
-    // Set a cookie when the user registers
     
   };
 
