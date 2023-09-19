@@ -20,13 +20,13 @@
     text-align: center;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: transform 0.3s ease; /* Add a transition for the 'transform' property */
-    opacity: 0; /* Start with opacity 0 */
+    transition: transform 0.3s ease; 
+    opacity: 0; 
     animation: fadeIn 1s ease-in-out forwards; 
 }
 
 .card:hover {
-    transform: scale(1.2); /* Scale the card slightly on hover */
+    transform: scale(1.2); 
 } 
 
 .userregistration {
@@ -74,8 +74,8 @@
     text-align: center;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: transform 0.3s ease; /* Add a transition for the 'transform' property */
-    opacity: 0; /* Start with opacity 0 */
+    transition: transform 0.3s ease; 
+    opacity: 0;
     animation: fadeIn 1s ease-in-out forwards; 
 }
 .logoutbutton {
@@ -93,7 +93,7 @@
 @media (max-width: 768px) {
     .mainpage {
         background-size: cover;
-        padding: 20px; /* Add some padding to the background container */
+        padding: 20px; 
     }
     .gamepage {
         height: 140vh;
@@ -104,8 +104,8 @@
         padding: 10px;
         text-align: center;
         margin: 10px;
-        transition: transform 0.3s ease; /* Add a transition for the 'transform' property */
-        opacity: 0; /* Start with opacity 0 */
+        transition: transform 0.3s ease; 
+        opacity: 0; 
         animation: fadeIn 1s ease-in-out forwards; 
     }
 
