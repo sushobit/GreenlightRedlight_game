@@ -1,4 +1,9 @@
+/* GreenLightRedLight.css */
 
+/* Styles for the game container */
+
+
+  /* Styles for the game box */
   .box {
     width: 200px;
     height: 150px;
@@ -11,10 +16,12 @@
   
   .box.green {
     background-color: green;
+    filter: drop-shadow(1px 1px 20px green);
   }
   
   .box.red {
     background-color: red;
+    filter: drop-shadow(1px 1px 20px red);
   }
   
   .instructions {
@@ -26,6 +33,7 @@
   }
   .mode {
     background-color: rgb(240, 240, 14);
+    filter: drop-shadow(1px 1px 20px #6c63ff);
     color: black;
     font-weight: 800;
     border-radius: 5px;
@@ -48,9 +56,7 @@
     transition: background-color 0.3s;
   }
   
-  button:hover {
-    background-color: #0056b3;
-  }
+
 
   .homebutton {
     background-color: #007bff;
@@ -64,40 +70,40 @@
     font-size: xx-large;
   }
   
- 
+  /* Styles for the game over message */
   .game-over-message {
     font-size: 24px;
     color: red;
     font-weight: bold;
   }
   .time-left {
-    animation: blip 1s ease infinite;
-    background-color: #ffcc00; 
-    display: inline-block;
-    padding: 5px 10px; 
-    border-radius: 5px; 
+    animation: blip 1s ease infinite; /* Define the animation */
+    background-color: #ffcc00; /* Set the background color */
+    display: inline-block; /* To contain the background color */
+    padding: 5px 10px; /* Adjust padding for spacing */
+    border-radius: 5px; /* Add rounded corners for the background */
   }
   .score-container {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center; /* Set the container height to fill the viewport */
   }
   
   .score {
-    font-size: 24px; 
-    font-weight: bold; 
-    color: #5da9fa; 
-    background-color: #090a0a; 
-    padding: 10px; 
-    border-radius: 5px; 
-    text-align: center;
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    color: #5da9fa; /* Set the text color (blue in this example) */
+    background-color: #090a0a; /* Set the background color */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners for the background */
+    text-align: center; /* Center align the text */
   }
   .win-text {
-    font-size: 36px;
-    font-weight: bold;
-    color: #0b7b25; 
-    text-align: center; 
-    margin-top: 20px; 
+    font-size: 36px; /* Set font size */
+    font-weight: bold; /* Make text bold */
+    color: #0b7b25; /* Set text color (green in this example) */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add margin from the top for spacing */
   }
   .startagainbutton {
     background-color: #007bff;
